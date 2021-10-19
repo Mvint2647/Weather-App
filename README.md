@@ -1,6 +1,7 @@
 # Weather-App
-A Weather App.
-Don't know the weather? -Check it out below!
+A Weather App.<br>
+Don't know the weather? <br> -Check it out below!<br>
+[Click to go to Live Site!](https://refined-github-html-preview.kidonng.workers.dev/Mvint2647/Weather-App/raw/main/index.html)
 
 ## Table of Contents
 

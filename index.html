@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+
+<body>
+    <header class="container-fluid">
+        <div class="d-flex align-items-center justify-content-center">
+            <h1>Weather Dashboard</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <h3>Search for a City:</h3>
+                <form id="search-form" class="mb-2">
+                    <input id="search-input" class="form-input" type="text" placeholder="Search...">
+                    <button class="btnn">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-container">
+
+        <div class="one">
+            <img id="icon" src="https://openweathermap.org/img/wn/01d@2x.png" alt="weather icon" />
+            <h2 id="city-name"> </h2><br>
+            <h3 id="todays-date"></h3>
+        </div>
+        <div class="two">
+            <ul>
+                <a>Temp: <span id="temp"></span></a><br>
+                <a>Wind: <span id="wind"></span></a><br>
+                <a>Humidity: <span id="humidity"></span></a><br>
+                <a>UV Index: <span id="uv-index"></span></a><br>
+            </ul>
+        </div>
+</div>
+        <!------------------------------------------------------------->
+        <div class="three">
+            <h3>5 Day Forecast:</h3>
+            <div class="card-group">
+                <div class="card-body">
+                    <h5 id="h5-day-1" class="card-title">Day 1</h5>
+                    <img id="img-day-1" src="https://openweathermap.org/img/wn/02d.png" alt="icon" />
+                    <ul class="list-group list-group-flush">
+                        <li id="temp-day-1" class="list-group-item"></li>
+                        <li id="humid-day-1" class="list-group-item"></li>
+                        <li id="wind-day-1" class="list-group-item"></li>
+                    </ul>
+                </div>
+
+                <div class="card-body">
+                    <h5 id="h5-day-2" class="card-title">Day 2</h5>
+                    <img id="img-day-2" src="https://openweathermap.org/img/wn/04d.png" alt="icon" />
+                    <ul class="list-group list-group-flush">
+                        <li id="temp-day-2" class="list-group-item"></li>
+                        <li id="wind-day-2" class="list-group-item"></li>
+                        <li id="humid-day-2" class="list-group-item"></li>
+                    </ul>
+                </div>
+
+                <div class="card-body">
+                    <h5 id="h5-day-3" class="card-title">Day 3</h5>
+                    <img id="img-day-3" src="https://openweathermap.org/img/wn/09d.png" alt="icon" />
+                    <ul class="list-group list-group-flush">
+                        <li id="temp-day-3" class="list-group-item"></li>
+                        <li id="wind-day-3" class="list-group-item"></li>
+                        <li id="humid-day-3" class="list-group-item"></li>
+                    </ul>
+                </div>
+
+
+
+                <div class="card-body">
+                    <h5 id="h5-day-4" class="card-title">Day 4</h5>
+                    <img id="img-day-4" src="https://openweathermap.org/img/wn/10d.png" alt="icon" />
+                    <ul class="list-group list-group-flush">
+                        <li id="temp-day-4" class="list-group-item"></li>
+                        <li id="wind-day-4" class="list-group-item"></li>
+                        <li id="humid-day-4" class="list-group-item"></li>
+                    </ul>
+                </div>
+
+                <div class="card-body">
+                    <h5 id="h5-day-5" class="card-title">Day 5</h5>
+                    <img id="img-day-5" src="https://openweathermap.org/img/wn/11d.png" alt="icon" />
+                    <ul class="list-group list-group-flush">
+                        <li id="temp-day-5" class="list-group-item"></li>
+                        <li id="wind-day-5" class="list-group-item"></li>
+                        <li id="humid-day-5" class="list-group-item"></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-2">
+
+                    <ul id="search-history" class="list-group"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

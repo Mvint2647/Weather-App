@@ -1,0 +1,79 @@
+* body {
+  font-family: "Marcellus", serif;
+  background-image: url("https://images.unsplash.com/photo-1431440869543-efaf3388c585?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2340&q=80");
+  background-size: cover;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 60px;
+  padding:40px;
+  text-align: center;
+  color:white;
+}
+
+
+h3{
+    text-align: center;
+    margin:40px;
+    color:rgb(255, 255, 255);
+    justify-content: center;
+}
+
+h3#todays-date,
+h2#city-name {
+  margin-right: 40px;
+  color: rgb(255, 255, 255);
+  float: right;
+
+}
+
+
+
+h2{
+  color: white;
+  text-align: center;
+  
+}
+h5{
+    font-weight: bolder;
+    color:rgb(255, 0, 157);
+}
+
+.row {
+    margin:auto;
+    text-align: center;
+    display: flex;
+    float: left;
+  }
+
+.div.one {
+  display: flex;
+  float:right;
+  margin:auto;
+}
+
+.two {
+  color: rgb(255, 255, 255);
+  display: grid;
+  margin: auto;
+}
+
+ul {
+  font-size: 20px;
+  color:rgb(255, 0, 128);
+}
+
+.card-body{
+width:min-content;
+background-color: rgba(0, 0, 0, 0.445);
+}
+
+.btnn {
+  border: solid 0.5px rgba(255, 255, 255, 0.26);
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+

@@ -1,7 +1,7 @@
 # Weather-App
 A Weather App.<br>
 Don't know the weather? <br> -Check it out below!<br>
-[Click to go to Live Site!](https://refined-github-html-preview.kidonng.workers.dev/Mvint2647/Weather-App/raw/main/index.html)
+[Click to go to Live Site!](https://mvint2647.github.io/Weather-App/)
 
 ## Table of Contents
 

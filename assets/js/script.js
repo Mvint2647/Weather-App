@@ -98,28 +98,28 @@ function searchACity(query) {
             let j = 1;
             for (let i = 3; i <= 35; i += 8) {
                 let day = data.list[i];
-
-                let dateEl = document.querySelector("#h5-day-" + j);
                 let date = day.dt_txt.split(" ");
+                let dateEl = document.querySelector("#h5-day-" + j);
+                
                 dateEl.textContent = date[0].slice(5);
 
-                let smalliconsEL = document.querySelector("#img-day-" + j);
+                
                 let iconId = day.weather[0].icon;
+                let smalliconsEL = document.querySelector("#img-day-" + j);
                 let iconSrc = "https://openweathermap.org/img/wn/" + iconId + ".png";
+                
                 smalliconsEL.setAttribute("src", iconSrc);
 
                 let tempLiEl = document.querySelector("#temp-day-" + j);
                 let windLiEl = document.querySelector("#wind-day-" + j);
                 let humidLiEl = document.querySelector("#humid-day-" + j);
 
-                tempLiEl.textContent = "Temp: " + day.main.temp + " °F";
+                tempLiEl.textContent = "Temperature: " + day.main.temperature + " °F";
                 windLiEl.textContent = "Wind: " + day.wind.speed + " MPH";
-                humidLiEl.textContent = "Humid: " + day.main.humidity + " %";
-
-                j++;
+                humidLiEl.textContent = "Humidity: " + day.main.humidity + " %"; j++;
             }
         })
-        .catch(function (error) {
+        .catch(function (err) {
           
         });
 }
